@@ -19,6 +19,24 @@ This repository provides a comprehensive eight-level modeling stack for parallel
 
 This multi-fidelity framework allows users to select the optimal model based on their specific requirements for computational speed and predictive accuracy.
 
+## Quick Start: Interactive Benchmarking App
+
+Follow these steps to run the master comparison application with the graphical user interface (GUI):
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/haijunsu-osu/parallelogram_model_comparison.git
+   cd parallelogram_model_comparison
+   ```
+
+2. **Run the interactive app:**
+   ```bash
+   python ./comparison/compare_models_gui.py
+   ```
+
+> [!NOTE]
+> To execute the **FEA 2D** and **FEA 3D** simulations from within the app, ensure that **FreeCAD** is installed on your local computer and accessible via the system path.
+
 ---
 
 ## Table of Contents
