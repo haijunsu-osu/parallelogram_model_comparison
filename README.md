@@ -3,7 +3,7 @@
 A Python-based solver for large-deflection beam analysis using the nonlinear Euler-Bernoulli beam theory with arc-length parameterization.
 
 This repository is maintained to support the following paper:
-> **Su, H.-J., and Survey, B., "Hierarchical Multi-fidelity Modeling Stack for Design and Analysis of Compliant Mechanisms," Proc. of the ASME 2026 IDETC/CIE, Houston, TX, Aug. 23–26, 2026. Paper No. DETC2026-XXXXX.**
+> **Su, H.-J., and Survey, B., "An Open Source Hierarchical Multi-fidelity Modeling Stack for Design and Analysis of Compliant Mechanisms," Proc. of the ASME 2026 IDETC/CIE, Houston, TX, Aug. 23–26, 2026. Paper No. DETC2026-19401.**
 
 ## Overview
 
@@ -545,12 +545,12 @@ If you use this code or the benchmark dataset in your research, please cite our 
 ```bibtex
 @inproceedings{Su2026Hierarchical,
   author = {Su, Hai-Jun and Survey, Ben},
-  title = {Hierarchical Multi-fidelity Modeling Stack for Design and Analysis of Compliant Mechanisms},
+  title = {An Open Source Hierarchical Multi-fidelity Modeling Stack for Design and Analysis of Compliant Mechanisms},
   booktitle = {Proceedings of the ASME 2026 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference (IDETC/CIE 2026)},
   year = {2026},
   month = {August},
   address = {Houston, TX},
-  note = {Paper No. DETC2026-XXXXX}
+  note = {Paper No. DETC2026-19401}
 }
 ```
 
