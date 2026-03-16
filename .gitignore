@@ -6,6 +6,7 @@ IDETC_2026/
 references/
 paper/
 fea_Ben/
+comparison/old/
 *.pdf
 *.aux
 *.log
