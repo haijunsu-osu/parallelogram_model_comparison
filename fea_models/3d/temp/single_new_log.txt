@@ -1,0 +1,162 @@
+FreeCAD 1.0.2, Libs: 1.0.2R39319 (Git)
+(C) 2001-2025 FreeCAD contributors
+FreeCAD is free and open-source software licensed under the terms of LGPL2+ license.
+
+Recompute......
+						(33 %)							(66 %)							(100 %)									Recompute......
+						(25 %)							(50 %)							(75 %)							(100 %)									Recompute......
+						(12 %)							(25 %)							(37 %)							(50 %)							(62 %)							(75 %)							(87 %)							(100 %)									Recompute......
+						(11 %)							(22 %)							(33 %)							(44 %)							(55 %)							(66 %)							(77 %)							(88 %)							(100 %)									Recompute......
+						(6 %)							(13 %)							(20 %)							(26 %)							(33 %)							(40 %)							(46 %)							(53 %)							(60 %)							(66 %)							(73 %)							(80 %)							(86 %)							(93 %)							(100 %)									  ElementDimension: 3
+  C:\Users\haiju\AppData\Local\Temp\fcfem_3517oyc7\Slice_Geometry.brep
+  C:\Users\haiju\AppData\Local\Temp\fcfem_3517oyc7\Slice_Mesh.unv
+  C:\Users\haiju\AppData\Local\Temp\fcfem_3517oyc7\shape2mesh.geo
+  C:\Program Files\FreeCAD 1.0\bin/gmsh.exe
+  New mesh was added to the mesh object.
+Recompute......
+						(6 %)							(13 %)							(20 %)							(26 %)							(33 %)							(40 %)							(46 %)							(53 %)							(60 %)							(66 %)							(73 %)							(80 %)							(86 %)							(93 %)							(100 %)									Recompute......
+						(5 %)							(11 %)							(16 %)							(22 %)							(27 %)							(33 %)							(38 %)							(44 %)							(50 %)							(55 %)							(61 %)							(66 %)							(72 %)							(77 %)							(83 %)							(88 %)							(94 %)							(100 %)									Recompute......
+						(4 %)							(9 %)							(13 %)							(18 %)							(22 %)							(27 %)							(31 %)							(36 %)							(40 %)							(45 %)							(50 %)							(54 %)							(59 %)							(63 %)							(68 %)							(72 %)							(77 %)							(81 %)							(86 %)							(90 %)							(95 %)							(100 %)									Recompute......
+						(4 %)							(9 %)							(13 %)							(18 %)							(22 %)							(27 %)							(31 %)							(36 %)							(40 %)							(45 %)							(50 %)							(54 %)							(59 %)							(63 %)							(68 %)							(72 %)							(77 %)							(81 %)							(86 %)							(90 %)							(95 %)							(100 %)									Recompute......
+						(4 %)							(9 %)							(13 %)							(18 %)							(22 %)							(27 %)							(31 %)							(36 %)							(40 %)							(45 %)							(50 %)							(54 %)							(59 %)							(63 %)							(68 %)							(72 %)							(77 %)							(81 %)							(86 %)							(90 %)							(95 %)							(100 %)									Recompute......
+						(4 %)							(9 %)							(13 %)							(18 %)							(22 %)							(27 %)							(31 %)							(36 %)							(40 %)							(45 %)							(50 %)							(54 %)							(59 %)							(63 %)							(68 %)							(72 %)							(77 %)							(81 %)							(86 %)							(90 %)							(95 %)							(100 %)									
+Get mesh data for constraints, materials and element geometry...
+Materials
+Constraint: TitaniumMat --> We're going to search in the mesh for the element ID's.
+    ReferenceShape ... Type: Solid, Object name: Slice, Object label: Slice, Element name: Solid1
+    ReferenceShape ... Type: Solid, Object name: Slice, Object label: Slice, Element name: Solid2
+binary search: get_femelements_by_femnodes_bin
+len femnodes_ele_table: 9450
+found Volumes: 2349
+Constraint: RigidMat --> We're going to search in the mesh for the element ID's.
+    ReferenceShape ... Type: Solid, Object name: Slice, Object label: Slice, Element name: Solid3
+binary search: get_femelements_by_femnodes_bin
+len femnodes_ele_table: 9450
+found Volumes: 2529
+Count finite elements as sum of constraints:   4878
+Count finite elements of the finite element mesh: 4878
+ConstraintFixed:
+    Type: Fem::ConstraintFixed, Name: ConstraintFixed
+    ReferenceShape ... Type: Face, Object name: Slice, Object label: Slice, Element name: Face1
+    ReferenceShape ... Type: Face, Object name: Slice, Object label: Slice, Element name: Face8
+ConstraintForcError: The working_dir: '' given to base input file writer class does not exist. A temporary directory is used.
+The working directory 'C:\Users\haiju\AppData\Local\Temp\fcfem_nbz8o0cg' was created and will be used.eX:
+    Type: Fem::ConstraintForce, Name: ConstraintForceX
+  Warning --> Force = 0
+    ReferenceShape ... Type: Vertex, Object name: Slice, Object label: Slice, Element name: Vertex24
+ConstraintForceY:
+    Type: Fem::ConstraintForce, Name: ConstraintForceY
+    ReferenceShape ... Type: Vertex, Object name: Slice, Object label: Slice, Element name: Vertex24
+ConstraintMomentPlus:
+    Type: Fem::ConstraintForce, Name: ConstraintMomentPlus
+  Warning --> Force = 0
+    ReferenceShape ... Type: Face, Object name: Slice, Object label: Slice, Element name: Face19
+    ReferenceShape ... Type: Face, Object name: Slice, Object label: Slice, Element name: Face20
+ConstraintMomentMinus:
+    Type: Fem::ConstraintForce, Name: ConstraintMomentMinus
+  Warning --> Force = 0
+    ReferenceShape ... Type: Face, Object name: Slice, Object label: Slice, Element name: Face17
+    ReferenceShape ... Type: Face, Object name: Slice, Object label: Slice, Element name: Face18
+Getting mesh data time: 19.344 seconds.
+
+CalculiX solver input writing...
+Input file:C:\Users\haiju\AppData\Local\Temp\fcfem_nbz8o0cg\FEMMeshGmsh.inp
+One monster input file.
+Writing time CalculiX input file: 0.172 seconds.
+
+Check prerequisites...
+
+Get mesh data for constraints, materials and element geometry...
+Materials
+Constraint: TitaniumMat --> We're going to search in the mesh for the element ID's.
+    ReferenceShape ... Type: Solid, Object name: Slice, Object label: Slice, Element name: Solid1
+    ReferenceShape ... Type: Solid, Object name: Slice, Object label: Slice, Element name: Solid2
+binary search: get_femelements_by_femnodes_bin
+len femnodes_ele_table: 9450
+found Volumes: 2349
+Constraint: RigidMat --> We're going to search in the mesh for the element ID's.
+    ReferenceShape ... Type: Solid, Object name: Slice, Object label: Slice, Element name: Solid3
+binary search: get_femelements_by_femnodes_bin
+len femnodes_ele_table: 9450
+found Volumes: 2529
+Count finite elements as sum of constraints:   4878
+Count finite elements of the finite element mesh: 4878
+ConstraintFixed:
+    Type: Fem::ConstraintFixed, Name: ConstraintFixed
+    ReferenceShape ... Type: Face, Object name: Slice, Object label: Slice, Element name: Face1
+    ReferenceShape ... Type: Face, Object name: Slice, Object label: Slice, Element name: Face8
+ConstraintForceX:
+    Type: Fem::ConstraintForce, Name: ConstraintForceX
+  Warning --> Force = 0
+    ReferenceShape ... Type: Vertex, Object name: Slice, Object label: Slice, Element name: Vertex24
+ConstraintForceY:
+    Type: Fem::ConstraintForce, Name: ConstraintForceY
+    ReferenceShape ... Type: Vertex, Object name: Slice, Object label: Slice, Element name: Vertex24
+ConstraintMomentPlus:
+    Type: Fem::ConstraintForce, Name: ConstraintMomentPlus
+  Warning --> Force = 0
+    ReferenceShape ... Type: Face, Object name: Slice, Object label: Slice, Element name: Face19
+    ReferenceShape ... Type: Face, Object name: Slice, Object label: Slice, Element name: Face20
+ConstraintMomentMinus:
+    Type: Fem::ConstraintForce, Name: ConstraintMomentMinus
+  Warning --> Force = 0
+    ReferenceShape ... Type: Face, Object name: Slice, Object label: Slice, Element name: Face17
+    ReferenceShape ... Type: Face, Object name: Slice, Object label: Slice, Element name: Face18
+Getting mesh data time: 19.578 seconds.
+
+CalculiX solver input writing...
+Input file:C:\Users\haiju\AppData\Local\Temp\fcfem_o4rgldok\FEMMeshGmsh.inp
+One monster input file.
+Writing time CalculiX input file: 0.109 seconds.
+
+CalculiX solver run...
+Everything seems fine. CalculiX ccx will be executed ......
+								CalculiX finished without error.
+
+CalculiX read results...
+Read ccx results from frd file: C:\Users\haiju\AppData\Local\Temp\fcfem_o4rgldok\FEMMeshGmsh.frd
+Read ccx results from dat file: C:\Users\haiju\AppData\Local\Temp\fcfem_o4rgldok\FEMMeshGmsh.dat
+Recompute......
+						(3 %)							(7 %)							(11 %)							(15 %)							(19 %)							(23 %)							(26 %)							(30 %)							(34 %)							(38 %)							(42 %)							(46 %)							(50 %)							(53 %)							(57 %)							(61 %)							(65 %)		============================================================
+SINGLE CASE TEST  (new script - Steel, T=5, W=150 full)
+============================================================
+L=250.0, T=5.0, H=50.0, W=150.0 mm  →  beams at y=±75
+E_beam=210 GPa (Steel), nu=0.3
+I = 5.2083e-10 m^4
+FNormFactor = 1750.000000 N,  MNormFactor = 437.500000 N·m
+Test case: Ax=0.0, Ay=5.0, M=0.0
+  → Fx=0.0000 N, Fy=8750.0000 N, Mz=0.0000 N·m
+Solids after Slice: 3
+Beam solids: 2,  Stage solids: 1
+Meshing...
+Mesh: 9450 nodes, 4878 elements  (1.2 s)
+Fixed faces at x=0: 2
+Moment strips: +[19, 20]  -[17, 18]
+Probe top: (250.0, 77.5, 0.0)
+Probe bot: (250.0, -77.5, 0.0)
+Probe mid: (250.0, 0.0, 0.0)
+
+Running CalculiX...
+Solved in 45.1 s
+
+============================================================
+RESULTS  (new script: Steel T=5 W=150full)
+============================================================
+Normalized load:  Ax=0.0,  Ay=5.0,  M=0.0
+Physical forces:  Fx=0.0000 N,  Fy=8750.0000 N,  Mz=0.0000 N·m
+Stage center displacement:
+  x  = -5.7117 mm   (parasitic)
+  y  = 48.3180 mm   (primary)
+  Ux = x/L = -0.022847
+  Uy = y/L = 0.193272
+  phi = -0.001255 rad  (-0.0719 deg)
+BCM linear estimate:  Uy = Ay/24 = 0.208333
+Mesh: 9450 nodes, 4878 elements
+Times: mesh=1.2s  solve=45.1s  total=47.9s
+=== Done ===
+					(69 %)							(73 %)							(76 %)							(80 %)							(84 %)							(88 %)							(92 %)							(96 %)							(100 %)									
+CalculiX read results...
+Read ccx results from frd file: C:\Users\haiju\AppData\Local\Temp\fcfem_o4rgldok\FEMMeshGmsh.frd
+Read ccx results from dat file: C:\Users\haiju\AppData\Local\Temp\fcfem_o4rgldok\FEMMeshGmsh.dat
+Recompute......
+						(3 %)							(6 %)							(10 %)							(13 %)							(17 %)							(20 %)							(24 %)							(27 %)							(31 %)							(34 %)							(37 %)							(41 %)							(44 %)							(48 %)							(51 %)							(55 %)							(58 %)							(62 %)							(65 %)							(68 %)							(72 %)							(75 %)							(79 %)							(82 %)							(86 %)							(89 %)							(93 %)							(96 %)							(100 %)									

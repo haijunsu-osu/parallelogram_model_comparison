@@ -1,0 +1,7 @@
+numpy
+scipy
+matplotlib
+PyPDF2
+pandas
+fastapi
+uvicorn

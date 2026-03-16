@@ -1,0 +1,1 @@
+Script started. Args: ['C:\\Program Files\\FreeCAD 1.0\\bin\\FreeCADCmd.exe', 'C:\\Users\\haiju\\OneDrive\\Documents\\antigravity\\parallel_guided_beam\\fea_models\\3d_beam_dataset\\fea_worker_3d.py', 'C:\\Users\\haiju\\OneDrive\\Documents\\antigravity\\parallel_guided_beam\\fea_models\\3d_beam_dataset\\input_test.config']

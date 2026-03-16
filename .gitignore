@@ -1,0 +1,17 @@
+__pycache__/
+.agent/
+.venv/
+2d_beam_single/
+IDETC_2006/
+references/
+paper/
+fea_Ben/
+*.pdf
+*.aux
+*.log
+*.bbl
+*.blg
+*.out
+*.synctex.gz
+*.fdb_latexmk
+*.fls
