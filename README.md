@@ -7,11 +7,17 @@ This repository supports the paper:
 
 ## Overview
 
-This repository contains solvers for:
-1. **Single Cantilever Beam** - Large deflection analysis of a cantilever beam under arbitrary tip loading
-2. **Parallelogram Flexure Mechanism** - Analysis of a parallel-guided flexure stage formed by two identical beams
+This repository provides a comprehensive eight-level modeling stack for parallelogram flexure mechanisms:
+1. **Linear Beam** - Small-deflection baseline (first-order).
+2. **Beam Constraint Model (BCM)** - Algebraic polynomial solution for intermediate deflections.
+3. **Guided Beam BVP** - High-fidelity single-beam numerical surrogate.
+4. **Euler BVP** - Exact coupled multi-beam nonlinear Boundary Value Problem solver.
+5. **Pseudo-Rigid-Body (Standard)** - 1R rigid-link approximation ($\gamma \approx 0.85$).
+6. **Pseudo-Rigid-Body (Optimized)** - Refined link-length model ($\gamma = 0.90$) for large deflections.
+7. **2D Beam FEA** - Nonlinear beam element simulations with CalculiX.
+8. **3D Solid FEA** - High-fidelity ground truth benchmarks using solid elements.
 
-Both solvers use the **Elastica** formulation (large deflection, geometric nonlinearity) rather than the small-deflection linear theory.
+This multi-fidelity framework allows users to select the optimal model based on their specific requirements for computational speed and predictive accuracy.
 
 ---
 
