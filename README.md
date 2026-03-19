@@ -3,7 +3,8 @@
 This repository provides an open-source, hierarchical, eight-level multi-fidelity modeling stack for the design and analysis of compliant mechanisms. It establishes a unified framework that bridges the gap between rapid computational synthesis and rigorous physical validation, addressing the fundamental challenge of balancing computational throughput with predictive accuracy in large-deflection and geometrically nonlinear regimes.
 
 This repository supports the paper:
-**"An Open Source Hierarchical Multi-fidelity Modeling Stack for Design and Analysis of Compliant Mechanisms"** (DETC2026-19401), Proc. of the ASME 2026 IDETC/CIE, Houston, TX, Aug. 23–26, 2026.
+**"An Open Source Hierarchical Multi-fidelity Modeling Stack for Design and Analysis of Compliant Mechanisms"**
+Submitted to the *ASME Journal of Mechanisms and Robotics*, March, 2026.
 
 ## Overview
 
@@ -556,14 +557,13 @@ python prb/prb_parameter_study.py
 If you use this code or the benchmark dataset in your research, please cite our paper:
 
 ```bibtex
-@inproceedings{Su2026Hierarchical,
+@article{Su2026Hierarchical,
   author = {Su, Hai-Jun and Survey, Ben},
-  title = {An Open Source Hierarchical Multi-fidelity Modeling Stack for Design and Analysis of Compliant Mechanisms},
-  booktitle = {Proceedings of the ASME 2026 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference (IDETC/CIE 2026)},
+  title = {An Open-Source Hierarchical Multi-fidelity Modeling Stack for Design and Analysis of Compliant Mechanisms},
+  journal = {ASME Journal of Mechanisms and Robotics},
+  month = {March},
   year = {2026},
-  month = {August},
-  address = {Houston, TX},
-  note = {Paper No. DETC2026-19401}
+  note = {Submitted}
 }
 ```
 

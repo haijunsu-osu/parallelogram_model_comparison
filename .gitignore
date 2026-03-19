@@ -3,6 +3,7 @@ __pycache__/
 .venv/
 2d_beam_single/
 IDETC_2026/
+ASME_Journal/
 references/
 paper/
 fea_Ben/
